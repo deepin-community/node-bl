@@ -1,3 +1,45 @@
+node-bl (5.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * New upstream version 5.1.0
+
+ -- Yadd <yadd@debian.org>  Sat, 26 Nov 2022 18:33:15 +0100
+
+node-bl (5.0.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-bl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 10:49:32 +0000
+
+node-bl (5.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix test for tap >= 15 (--no-cov) (Closes: #1009527)
+
+ -- Yadd <yadd@debian.org>  Thu, 21 Apr 2022 10:11:12 +0200
+
+node-bl (5.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright)
+
+  [ Yadd ]
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+  * New upstream version 5.0.0
+
+ -- Yadd <yadd@debian.org>  Thu, 30 Dec 2021 19:27:31 +0100
+
 node-bl (4.0.3-1) unstable; urgency=medium
 
   * Team upload
